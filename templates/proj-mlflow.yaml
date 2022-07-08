@@ -21,7 +21,7 @@ spec:
       - name: envFrom[0].secretRef.name
         value: aws-credentials
       - name: mlflow.bucket
-        value: s3://helix-text
+        value: s3://helix-test
       - name: modeldynamics.internal.application.name
         value: proj-mlflow
       - name: modeldynamics.internal.project.name
