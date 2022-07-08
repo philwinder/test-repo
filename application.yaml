@@ -20,7 +20,7 @@ spec:
       valueFiles:
       - values.yaml
     path: .
-    repoURL: git@github.com:philwinder/test-repo.git
+    repoURL: git@github.com:philwinder/test-repo
     targetRevision: HEAD
   syncPolicy:
     automated:
