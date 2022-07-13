@@ -6,15 +6,15 @@ metadata:
   labels:
     app.kubernetes.io/created-by: modeldynamics-helix
     app.kubernetes.io/managed-by: modeldynamics
-    app.kubernetes.io/name: test
+    app.kubernetes.io/name: testes
     app.kubernetes.io/part-of: helix-project
-  name: test
+  name: testes
   namespace: argocd
 spec:
   destination:
-    namespace: helix-test
+    namespace: helix-testes
     server: https://kubernetes.default.svc
-  project: test
+  project: testes
   source:
     helm:
       valueFiles:
