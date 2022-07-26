@@ -4,7 +4,7 @@ metadata:
   labels:
     app.kubernetes.io/created-by: modeldynamics-helix
     app.kubernetes.io/managed-by: modeldynamics
-    app.kubernetes.io/name: testes
+    app.kubernetes.io/name: test
     app.kubernetes.io/part-of: helix-project
-  name: helix-testes
+  name: helix-test
   namespace: argocd
