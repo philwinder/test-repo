@@ -5,7 +5,7 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
   labels:
     app.kubernetes.io/managed-by: modeldynamics
-  name: test
+  name: test1
   namespace: argocd
 spec:
   clusterResourceWhitelist:
@@ -13,7 +13,7 @@ spec:
     kind: '*'
   description: This is a Model Dynamics Helix project.
   destinations:
-  - namespace: helix-test
+  - namespace: helix-test1
     server: https://kubernetes.default.svc
   - namespace: argocd
     server: https://kubernetes.default.svc
