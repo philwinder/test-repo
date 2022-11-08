@@ -9,5 +9,5 @@ spec:
       modelFormat:
         name: sklearn
       runtime: kserve-mlserver
-      storageUri: s3://helix-test/0/a23ea16006b740d4a90a35619db87fa1/artifacts/model
+      storageUri: s3://helix-test/0/668966266c9e48e8b79bb584a97899b5/artifacts/model
     serviceAccountName: test1-sk-learn-random-forest-reg
