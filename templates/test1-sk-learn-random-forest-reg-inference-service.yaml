@@ -1,0 +1,13 @@
+apiVersion: serving.kserve.io/v1beta1
+kind: InferenceService
+metadata:
+  name: test1-sk-learn-random-forest-reg
+  namespace: helix-test1
+spec:
+  predictor:
+    model:
+      modelFormat:
+        name: sklearn
+      runtime: kserve-mlserver
+      storageUri: s3://helix-test/0/ed6552c435ef429aae3a7af3cf3a6a38/artifacts/model
+    serviceAccountName: test1-sk-learn-random-forest-reg
